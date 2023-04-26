@@ -57,7 +57,12 @@ const Skills = () => {
         <p>Projects</p>
         <div>
           {mockProjects.map((item) => (
-            <Button image={linkImg} text={item} alt={"projects"} key={item} />
+            <Button
+              image={linkImg}
+              text={item.name}
+              alt={"projects"}
+              key={item.id}
+            />
           ))}
         </div>
       </StyledProjects>
@@ -66,7 +71,11 @@ const Skills = () => {
         <p>Frameworks</p>
         <div>
           {mockFrameworks.map((item) => (
-            <ButtonFrameW background={item.background} frame={item.frame} />
+            <ButtonFrameW
+              background={item.background}
+              frame={item.frame}
+              key={item.id}
+            />
           ))}
         </div>
       </StyledFrameworks>
@@ -75,8 +84,8 @@ const Skills = () => {
         <p>Languages</p>
         <div className="skills-languages">
           {mockLanguages.map((item) => (
-            <div>
-              <img src={item} alt="lang" />
+            <div key={item.id}>
+              <img src={item.src} alt="lang" />
             </div>
           ))}
         </div>

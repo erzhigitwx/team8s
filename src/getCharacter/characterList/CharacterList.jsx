@@ -11,7 +11,7 @@ const SlicedCharacterList = () => {
 
   return (
     <ul>
-      {data.results.slice(0, 20).map((character) => (
+      {data.results?.slice(0, 20).map((character) => (
         <li key={character.id}>
           <h3>{character.name}</h3>
           <p>Status: {character.status}</p>
@@ -33,14 +33,12 @@ const CharacterList = () => {
 
   return (
     <>
-      {/* getting characters */}
       <ul>
-        {data.results.map((character) => (
+        {data.results?.map((character) => (
           <li key={character.id}>{character.name}</li>
         ))}
       </ul>
-      {/* getting limited characters */}
-      {/* <SlicedCharacterList /> */}
+      <SlicedCharacterList />
     </>
   );
 };
