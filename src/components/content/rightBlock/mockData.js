@@ -1,11 +1,11 @@
-import lang1 from "../../../../public/assets/image/languagesImg/lang1.png";
-import lang2 from "../../../../public/assets/image/languagesImg/lang2.png";
-import lang3 from "../../../../public/assets/image/languagesImg/lang3.png";
-import lang4 from "../../../../public/assets/image/languagesImg/lang4.png";
-import lang5 from "../../../../public/assets/image/languagesImg/lang5.png";
-import lang6 from "../../../../public/assets/image/languagesImg/lang6.png";
-import lang7 from "../../../../public/assets/image/languagesImg/lang7.png";
-import lang8 from "../../../../public/assets/image/languagesImg/lang8.png";
+import lang1 from "../../../../public/assets/image/languagesImg/lang1.svg";
+import lang2 from "../../../../public/assets/image/languagesImg/lang2.svg";
+import lang3 from "../../../../public/assets/image/languagesImg/lang3.svg";
+import lang4 from "../../../../public/assets/image/languagesImg/lang4.svg";
+import lang5 from "../../../../public/assets/image/languagesImg/lang5.svg";
+import lang6 from "../../../../public/assets/image/languagesImg/lang6.svg";
+import lang7 from "../../../../public/assets/image/languagesImg/lang7.svg";
+import lang8 from "../../../../public/assets/image/languagesImg/lang8.svg";
 
 export const mockProjects = [
   {

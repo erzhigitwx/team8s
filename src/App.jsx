@@ -3,7 +3,6 @@ import Header from "./components/header/Header";
 import CharacterList from "./getCharacter/characterList/CharacterList";
 import CharacterSearchWithPagination from "./getCharacter/CharacterSearchWithPagination";
 
-
 function App() {
   return (
     <div className="App">

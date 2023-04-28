@@ -1,25 +1,9 @@
 import React from "react";
-import styled from "styled-components";
-import github from "../../../../public/assets/image/links/github.png";
-import behance from "../../../../public/assets/image/links/BehanceLogo.png";
-import telegram from "../../../../public/assets/image/links/TelegramLogo.png";
-import linkedIn from "../../../../public/assets/image/links/linkedin.png";
-
-const StyledLinks = styled.div`
-  margin-top: 90px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  img {
-    width: 28px;
-    height: 28px;
-  }
-  &:hover img:not(:hover){
-    opacity: 0.3;
-  }
-`;
+import github from "../../../../public/assets/image/links/github.svg";
+import behance from "../../../../public/assets/image/links/BehanceLogo.svg";
+import telegram from "../../../../public/assets/image/links/TelegramLogo.svg";
+import linkedIn from "../../../../public/assets/image/links/linkedin.svg";
+import { StyledLinks } from "./leftBlockStyles/Links.styles";
 
 const Links = () => {
   return (

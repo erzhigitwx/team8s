@@ -1,12 +1,12 @@
 import React from "react";
-import arrowLeft from "../../../public/assets/image/arrow-left.png";
+import arrowLeft from "../../../public/assets/image/arrow-left.svg";
 import {
   StyledBack,
   StyledHeader,
   StyledLogo,
   StyledMenu,
   StyledNavbar,
-} from "./StyledHeader";
+} from "./Header.styles";
 
 const Header = () => {
   return (

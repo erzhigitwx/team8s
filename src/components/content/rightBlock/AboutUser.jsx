@@ -1,24 +1,10 @@
 import React from "react";
-import styled from "styled-components";
 import Button from "../../button/Button";
-import { FlexRow } from "../../../styles/styled";
-import users from "../../../../public/assets/image/users.png";
-
-const StyledAbout = styled.div`
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  .right-content__about-des {
-    font-size: 14px;
-    line-height: 120%;
-  }
-`;
-const StyledSearchTeam = styled(FlexRow)`
-  align-items: center;
-  gap: 16px;
-  margin-top: 16px;
-`;
+import users from "../../../../public/assets/image/users.svg";
+import {
+  StyledAbout,
+  StyledSearchTeam,
+} from "./rightBlockStyles/AboutUser.styles";
 
 const AboutUser = () => {
   return (
